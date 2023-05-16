@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100;300;400;500;700;900&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+::selection {
+  background: rgba(230 151 5 / 50%);
+}
+
+html, body {
+  color: rgb(var(--txt-color));
+  height: 100%;
+}
+
+html {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Noto Sans HK", Helvetica, Arial, sans-serif;
+  background: rgb(var(--bg-color));
+  overflow: auto;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-block: 0 1rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color .3s ease;
+  &:hover {
+    color: rgb(var(--color-theme2));
+  }
+}
+
+button {
+  font-size: 1rem;
+  white-space: nowrap;
+  background: none;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+img, svg, .ov-icon {
+  display: block;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.ov-icon, .ov-icon :is(path, rect) {
+  color: inherit
+}
+
+.wrapper {
+  position: relative;
+  height: 100%;
+  max-width: 100rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  @media screen and (max-width: 48em) { // 48 * 16 = 768
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}

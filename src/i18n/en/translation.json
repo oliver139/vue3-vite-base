@@ -1,0 +1,15 @@
+{
+  "Navbar": {
+    "aboutUs": "About Us",
+    "proService": "Service",
+    "ourCustomer": "Our Customers",
+    "latestNews": "Latest News",
+    "contactUs": "Contact Us"
+  },
+  "ContactUs": {
+    "msg": "Contact Us",
+    "phone": "Phone",
+    "wechat": "Wechat",
+    "email": "Email"
+  }
+}

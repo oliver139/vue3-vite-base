@@ -1,0 +1,15 @@
+{
+  "Navbar": {
+    "aboutUs": "關於我們",
+    "proService": "專業的服務",
+    "ourCustomer": "我們的客戶",
+    "latestNews": "最新消息",
+    "contactUs": "聯絡我們"
+  },
+  "ContactUs": {
+    "msg": "立即聯絡我們",
+    "phone": "電話",
+    "wechat": "微信",
+    "email": "電郵"
+  }
+}
